@@ -13,63 +13,65 @@
 </head>
 
 <body>
-    <div class="row" id="register-body">
-        <div class="col-md-5" id="social-signup">
-            <div>
-                <p style="color: white; font-size: 2rem;">Register with your social accounts</p>
+
+    <div id="login-body">
+        <div class="ui raised segment" style="width: 50vw; margin-left: 20%;">
+            <div id="email-login">
+                <div class="title">
+                    Register
+                </div>
+                <form class="ui form">
+                    <div class="field">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="field">
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+                    <div class="field">
+                        <input type="password" name="password2" placeholder="Confirm password">
+                    </div>
+
+                    <button class="fluid ui button" type="submit">Register</button>
+
+
+                </form>
             </div>
 
-
-            <div class="social-btn">
-                <a class="fluid ui facebook button">
-                    <i class="facebook icon"></i>
-                    Facebook
-                </a>
-                <a class="fluid ui twitter button">
-                    <i class="twitter icon"></i>
-                    Twitter
-                </a>
-                <a class="fluid ui google  button" style="background-color: #DB4437 !important; color: white;">
-                    <i class="google  icon"></i>
-                    Google
-                </a>
-
-                <a class="fluid ui linkedin button">
-                    <i class="linkedin icon"></i>
-                    LinkedIn
-                </a>
+            <div class="ui horizontal divider">
+                or register with
             </div>
 
+            <div id="social-login">
+                <div class="social-btn">
+                    <a class="fluid ui facebook button">
+                        <i class="facebook icon"></i>
+                        Facebook
+                    </a>
+                    <a class="fluid ui twitter button">
+                        <i class="twitter icon"></i>
+                        Twitter
+                    </a>
+                    <a class="fluid ui google  button" style="background-color: #DB4437 !important; color: white;">
+                        <i class="google  icon"></i>
+                        Google
+                    </a>
 
+                    <a class="fluid ui linkedin button">
+                        <i class="linkedin icon"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="ui divider"></div>
+            <div style="margin-top: 2rem; text-align: center;">
+                Alreay Have an Account ? <a class="ui button" href="./login.html"> login</a>
+            </div>
         </div>
-
-        <div class="col-md-7" id="email-signup">
-            <div class="title">
-                Register
-            </div>
-            <form class="ui form">
-                <div class="field">
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-                <div class="field">
-                    <input type="text" name="username" placeholder="Username">
-                </div>
-                <div class="field">
-                    <input type="password" name="password" placeholder="password">
-                </div>
-                <div class="field">
-                    <input type="password" name="password2" placeholder="Confirm password">
-                </div>
-                <button class="fluid ui button" type="submit">Create Account</button>
-
-                <div style="margin-top: 3rem;">
-                    Already Have an Account ? <a class="ui button" href=""> login</a>
-                </div>
-            </form>
-
-        </div>
-
     </div>
+
 </body>
 
 <script src="../js/jquery.min.js"></script>

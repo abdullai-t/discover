@@ -1,3 +1,4 @@
+/* ################ index.html css ###################################### */
 .top-box {
   background-image: url("../images/ol.jpg");
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@
   border-color: white;
   color: white;
 }
-.btn{
+.btn {
   border-color: white;
   color: white;
 }
@@ -112,40 +113,18 @@ footer {
   padding-top: 3rem !important;
 }
 
-/* signup */
+/* ######################## accounts folder css start #####################################  */
 
-#register-body {
-  height: 100vh;
-}
-
-#social-signup {
-  background-color: #2e334f;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 2% 0 2%;
-}
-
-#social-signup a, #social-login a{
+#social-login a {
   margin-top: 1rem;
 }
 
-#email-signup {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  flex-direction: column;
-}
-
-#email-signup form{
-  padding: 5% 10% 2% 10%;
-}
-#email-signup .title, #email-login .title {
+#email-login .title {
   font-size: 3rem;
   text-align: center;
 }
 
-#email-signup, #email-login {
+#email-login {
   padding-top: 3rem;
 }
 
@@ -155,29 +134,22 @@ footer {
   border-right: none !important;
   border-radius: 0px !important;
 }
-#email-signup form button{
-  margin-top: 2rem;
-  background-color: #8bc2db;
-  color: white;
-}
 
-/* login */
-
-#social-login{
+#social-login {
   padding: 2% 20% 2% 20%;
 }
-#login-body{
+#login-body {
   padding: 2% 10% 2% 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   /* background-color: #4b3a29; */
 }
-.horizontal{
+.horizontal {
   width: 50%;
   margin-left: 25% !important;
 }
-#email-login form{
+#email-login form {
   padding: 5% 20% 5% 20%;
 }
 #email-login form button {
@@ -185,3 +157,4 @@ footer {
   background-color: #8bc2db;
   color: white;
 }
+/* ########################### end of accounts css #################################### */
