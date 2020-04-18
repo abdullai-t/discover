@@ -1,8 +1,9 @@
 .top-box {
   background-image: url("../images/ol.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 75vh;
 }
 #intro-container {
   display: flex;
