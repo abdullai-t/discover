@@ -4,14 +4,72 @@
 <head>
     <meta charset="utf-8">
     <title>Discover</title>
-  
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
 </head>
 
 <body>
+    <div class="row" id="register-body">
+        <div class="col-md-5" id="social-signup">
+            <div>
+                <p style="color: white; font-size: 2rem;">You can also register with your social accounts</p>
+            </div>
 
+
+            <div class="social-btn">
+                <a class="fluid ui facebook button">
+                    <i class="facebook icon"></i>
+                    Facebook
+                </a>
+                <a class="fluid ui twitter button">
+                    <i class="twitter icon"></i>
+                    Twitter
+                </a>
+                <a class="fluid ui google  button">
+                    <i class="google  icon"></i>
+                    Google
+                </a>
+
+                <a class="fluid ui linkedin button">
+                    <i class="linkedin icon"></i>
+                    LinkedIn
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-7" id="email-signup">
+            <div class="title">
+                Register
+            </div>
+            <form class="ui form">
+                <div class="field">
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+                <div class="field">
+                    <input type="password" name="password" placeholder="password">
+                </div>
+                <div class="field">
+                    <input type="password" name="password2" placeholder="Confirm password">
+                </div>
+                <a class="fluid ui button" type="submit">Submit</a>
+
+                <div style="margin-top: 3rem;">
+                    Already Have an Account ? <a class="ui button" href=""> login</a>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
 </body>
 
 <script src="../js/jquery.min.js"></script>
