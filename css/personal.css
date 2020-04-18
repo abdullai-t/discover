@@ -28,7 +28,10 @@
   border-color: white;
   color: white;
 }
-
+.btn{
+  border-color: white;
+  color: white;
+}
 .btn:focus,
 .btn:active {
   outline: none !important;
@@ -37,6 +40,7 @@
 .btn:hover {
   background-color: white !important;
   color: #8bc2db !important;
+  border-color: white;
 }
 
 .why-us {
@@ -122,7 +126,7 @@ footer {
   padding: 0 2% 0 2%;
 }
 
-#social-signup a {
+#social-signup a, #social-login a{
   margin-top: 1rem;
 }
 
@@ -133,15 +137,15 @@ footer {
   flex-direction: column;
 }
 
-#email-signup form {
+#email-signup form{
   padding: 5% 10% 2% 10%;
 }
-#email-signup .title {
+#email-signup .title, #email-login .title {
   font-size: 3rem;
   text-align: center;
 }
 
-#email-signup {
+#email-signup, #email-login {
   padding-top: 3rem;
 }
 
@@ -151,8 +155,33 @@ footer {
   border-right: none !important;
   border-radius: 0px !important;
 }
-#email-signup form a {
+#email-signup form button{
   margin-top: 2rem;
+  background-color: #8bc2db;
+  color: white;
+}
+
+/* login */
+
+#social-login{
+  padding: 2% 20% 2% 20%;
+}
+#login-body{
+  padding: 2% 10% 2% 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #4b3a29; */
+}
+.horizontal{
+  width: 50%;
+  margin-left: 25% !important;
+}
+#email-login form{
+  padding: 5% 20% 5% 20%;
+}
+#email-login form button {
+  margin-top: 1rem;
   background-color: #8bc2db;
   color: white;
 }

@@ -4,14 +4,71 @@
 <head>
     <meta charset="utf-8">
     <title>Discover</title>
-  
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 </head>
 
 <body>
-    
+
+    <div id="login-body">
+        <div class="ui raised segment" style="width: 50vw; margin-left: 20%;">
+            <div id="email-login">
+                <div class="title">
+                    Log In
+                </div>
+                <form class="ui form">
+                    <div class="field">
+                        <input type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="field">
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+
+                    <button class="fluid ui button" type="submit">login</button>
+                    <div style="margin-top: 1rem;">
+                        <a href="">forgot password ?</a>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="ui horizontal divider">
+                or login with
+            </div>
+
+            <div id="social-login">
+                <div class="social-btn">
+                    <a class="fluid ui facebook button">
+                        <i class="facebook icon"></i>
+                        Facebook
+                    </a>
+                    <a class="fluid ui twitter button">
+                        <i class="twitter icon"></i>
+                        Twitter
+                    </a>
+                    <a class="fluid ui google  button" style="background-color: #DB4437 !important; color: white;">
+                        <i class="google  icon"></i>
+                        Google
+                    </a>
+
+                    <a class="fluid ui linkedin button">
+                        <i class="linkedin icon"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="ui divider"></div>
+            <div style="margin-top: 2rem; text-align: center;">
+                New Here ? <a class="ui button" href=""> Register</a>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 
 <script src="../js/jquery.min.js"></script>
